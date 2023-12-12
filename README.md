@@ -84,3 +84,10 @@ your comment here
 ...
 comment
 ```
+
+**Variables** 
+```
+var_name = value
+var_name = $(hostname)
+echo $var_name
+```
