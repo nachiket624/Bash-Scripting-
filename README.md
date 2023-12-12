@@ -27,3 +27,34 @@ echo $0
 cat /etc/os-release
 ```
 
+
+First Basic Script
+```#!/bin/bash
+echo "Hello world"
+```
+
+What is SHEBANG
+
+```
+!#/bin/bash
+#SHEBANG tell computer to use bash as shell 
+```
+
+How to Run a Script
+- make sure script has execute permission 
+```
+rwx
+```
+Run using 
+```
+./script.sh
+OR
+/path/script.sh
+OR
+bash script.sh
+```
+
+
+> Ctrl+C  to terminate
+> Ctrl+Z to Stop
+
