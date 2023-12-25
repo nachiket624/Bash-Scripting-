@@ -172,3 +172,41 @@ echo "location is ${myArray[location]}"
 ```
 
 # String Operations
+
+ myVar = "Hello World!"
+ lenght=${#myVar}
+ upper=${x^^}
+ lower=${y,,}
+ replace=${myVar/World/Buddy}
+ slice={myVar/World/Buddy}
+
+05_String_Operation_lenght
+```
+#!/bin/bash
+# check lenght of the string
+myVar = "Hy Hello"
+myVarlength = ${#myVar}
+echo "length of the myVar is $myVarlength"
+```
+06_String_Operation_upper_lower
+```
+#!/bin/bash
+# convert string to upper case and lower case
+myVar = "Hy Hello"
+echo "Upper case is ${myVar^^}"
+echo "Lower case is ${myVar,,}"
+```
+replace a word in string 
+syntax
+>{variable_name/word_to_replace/new_word}
+
+07_String_Operation_replace
+
+```
+#!/bin/bash
+myvar = "Hey Buddy, how are you?"
+newvar = #{myvar/Buddy/Bob}
+echo "New variable is ${newvar}"
+```
+
+07_String_Operation_slice
