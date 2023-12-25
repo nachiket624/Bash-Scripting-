@@ -209,9 +209,26 @@ newvar = #{myvar/Buddy/Bob}
 echo "New variable is ${newvar}"
 ```
 
-07_String_Operation_slice
+08_String_Operation_slice
 ```
 #!/bin/bash
 myvar = "This is long string"
 newvar = "After slice #{myvar:4:6}"
 ```
+
+# User Interaction 
+read <var_name>
+read -p "Your name" Name
+
+09_user_input
+```
+#!/bin/bash
+echo "What is your name"
+read name 
+echo "Your name is $name"
+read -p "What is your name " name
+echo "Know your name is $name"
+```
+
+# Arithmetic Operations
+
