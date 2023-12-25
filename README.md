@@ -178,7 +178,7 @@ echo "location is ${myArray[location]}"
  upper=${x^^}
  lower=${y,,}
  replace=${myVar/World/Buddy}
- slice={myVar/World/Buddy}
+ slice={myVar:6:11}
 
 05_String_Operation_lenght
 ```
@@ -210,3 +210,8 @@ echo "New variable is ${newvar}"
 ```
 
 07_String_Operation_slice
+```
+#!/bin/bash
+myvar = "This is long string"
+newvar = "After slice #{myvar:4:6}"
+```
